@@ -18,3 +18,12 @@ console.log(variableName);
 
 variableName = 'Hello variables';
 console.log(variableName);
+
+
+//DATA TYPES
+const name = 'Kushan';
+const backticks = `Hello, ${name}, how are you?`;         //we can only use `` for this..can't do with '' or ""
+
+console.log(backticks);
+console.log(typeof backticks);
+
