@@ -27,3 +27,34 @@ const backticks = `Hello, ${name}, how are you?`;         //we can only use `` f
 console.log(backticks);
 console.log(typeof backticks);
 
+//OBJECTS
+const person = {
+    name: 'Kushan',                     //an object can store any data type
+    age: 26,
+}
+
+console.log(person);
+
+const a = 10;
+const b = 10;
+
+console.log(a > b);
+
+//strict equality
+//compares VALUES and DATA TYPES
+//return true if only both are same
+console.log(20 === "20");
+
+//loose equality
+//doesn't compares DATA TYPES
+console.log(20 == "20");
+
+//LOGICAL OPERATORS
+//AND && => all operands are true => true
+console.log(true && true);
+
+//OR || => at least one operands are true => true
+console.log(true || false);
+
+//NOT
+console.log(!true);
