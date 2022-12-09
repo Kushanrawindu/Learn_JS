@@ -58,3 +58,13 @@ console.log(true || false);
 
 //NOT
 console.log(!true);
+
+//LOOPS
+const age = 18;
+
+if(age >= 18){
+    console.log("welcome to the club");
+
+}else{
+    console.log("grow up!!!");
+}
