@@ -68,3 +68,28 @@ if(age >= 18){
 }else{
     console.log("grow up!!!");
 }
+
+let i = 0;
+
+// while(i < 10){
+//     console.log(i);
+//     i++;
+// }
+
+for(k=0; k <=10; k++){
+    console.log(k);
+}
+
+
+//FUNCTIONS
+//function declaration(defining a function)
+function square(number){
+    return number*number;
+}
+//function call(calling/executing a function)
+const result = square(50);
+console.log(result);
+
+const square1 = (number) => number*number;
+const result1 = square(5);
+console.log(result1);
